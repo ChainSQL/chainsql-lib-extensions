@@ -8,8 +8,8 @@ the quotient of TakerPays/TakerGets. It uses drops (1e-6 XRP) for XRP values.
 */
 
 function adjustQualityForXRP(quality, takerGetsCurrency, takerPaysCurrency) {
-  var numeratorShift = (takerPaysCurrency === 'XRP' ? -6 : 0)
-  var denominatorShift = (takerGetsCurrency === 'XRP' ? -6 : 0)
+  var numeratorShift = (takerPaysCurrency === 'ZXC' ? -6 : 0)
+  var denominatorShift = (takerGetsCurrency === 'ZXC' ? -6 : 0)
   var shift = numeratorShift - denominatorShift
   return shift === 0 ? (new BigNumber(quality)).toString() :
     (new BigNumber(quality)).shift(shift).toString()

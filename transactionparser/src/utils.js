@@ -33,7 +33,7 @@ function parseCurrencyAmount(currencyAmount) {
   }
   if (typeof currencyAmount === 'string') {
     return {
-      currency: 'XRP',
+      currency: 'ZXC',
       value: dropsToXRP(new BigNumber(currencyAmount)).toString()
     }
   }

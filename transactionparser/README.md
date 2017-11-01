@@ -49,12 +49,12 @@ where `ORDERCHANGE` is a javascript object with the following format:
     direction: 'buy' | 'sell',
     quantity: {
         currency: CURRENCYSTRING,
-        counterparty: RIPPLEADDRESS,  (omitted if currency is 'XRP')
+        counterparty: RIPPLEADDRESS,  (omitted if currency is 'ZXC')
         value: DECIMALSTRING
     },
     totalPrice: {
         currency: CURRENCYSTRING,
-        counterparty: RIPPLEADDRESS,  (omitted if currency is 'XRP')
+        counterparty: RIPPLEADDRESS,  (omitted if currency is 'ZXC')
         value: DECIMALSTRING
     },
     makerExchangeRate: DECIMALSTRING,

@@ -1,5 +1,5 @@
 {
-  "name": "ripple-lib-transactionparser",
+  "name": "chainsql-lib-transactionparser",
   "version": "0.6.1",
   "description": "Parses transaction objects to a higher-level view",
   "license": "ISC",
@@ -14,9 +14,9 @@
   },
   "main": "src/index.js",
   "keywords": [
-    "ripple",
-    "ripple-lib",
-    "ripple-lib-transactionparser"
+    "chainsql",
+    "chainsql-lib",
+    "chainsql-lib-transactionparser"
   ],
   "dependencies": {
     "bignumber.js": "^2.0.3",
