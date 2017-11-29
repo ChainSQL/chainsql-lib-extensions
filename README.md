@@ -17,7 +17,7 @@ Live updating orderbook data from the Ripple Network.  Requires RippleAPI versio
   api.connect().then(function() {
 
     var book = rippleOrderbook.OrderBook.createOrderBook(api, {
-      currency_gets: 'XRP',
+      currency_gets: 'ZXC',
       issuer_pays: 'rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B',
       currency_pays: 'USD'
     });
