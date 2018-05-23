@@ -52,7 +52,7 @@ function parseXRPQuantity(node, valueParser) {
     address: node.finalFields.Account || node.newFields.Account,
     balance: {
       counterparty: '',
-      currency: 'ZXC',
+      currency: 'DAC',
       value: dropsToXRP(value).toString()
     }
   }

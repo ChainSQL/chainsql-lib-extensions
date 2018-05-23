@@ -1,6 +1,6 @@
 {
-  "name": "chainsql-lib-transactionparser",
-  "version": "0.6.1",
+  "name": "dac-lib-transactionparser",
+  "version": "1.0.0",
   "description": "Parses transaction objects to a higher-level view",
   "license": "ISC",
   "scripts": {
@@ -14,9 +14,9 @@
   },
   "main": "src/index.js",
   "keywords": [
-    "chainsql",
-    "chainsql-lib",
-    "chainsql-lib-transactionparser"
+    "dac",
+    "dac-lib",
+    "dac-lib-transactionparser"
   ],
   "dependencies": {
     "bignumber.js": "^2.0.3",

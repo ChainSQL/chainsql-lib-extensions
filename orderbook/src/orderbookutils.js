@@ -64,7 +64,7 @@ function getNodeType(node) {
 
 function rippledAmountToCurrencyString(amount: RippledAmount): string {
   return typeof amount === 'string' ?
-    'ZXC' :
+    'IDAC' :
     (amount.currency + '/' +
     (amount.issuer ? amount.issuer : ''))
 }
